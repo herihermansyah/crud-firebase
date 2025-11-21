@@ -101,10 +101,22 @@ Access the deployed version here:
 ## 🖼️ preview
 
 ![Dashboard](./screenshots/dashboard.png)  
-![Form](./screenshots/listusers.png)
-![Form](./screenshots/previewuser.png)
-![Form](./screenshots/formusers.png)
 
+**users preview**
+![listuser](./screenshots/listusers.png)
+![previewuser](./screenshots/previewuser.png)
+![Formuser](./screenshots/formusers.png)
+
+**products preview**
+![listproducts](./screenshots/listproducts.png)
+![previewproduct](./screenshots/previewproduct.png)
+![Formproduct](./screenshots/formproduct.png)
+
+---
+
+## 🖼️ tutorial env.local
+![env.local](./screenshots/envlocal.png)
+![Firebase code](./screenshots/firebasecode.png)
 ---
 
 ## 👨‍💻 Author
