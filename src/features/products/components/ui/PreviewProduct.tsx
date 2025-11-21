@@ -80,6 +80,7 @@ function PreviewProduct() {
             initial={{translateX: -500, opacity: 0}}
             animate={{translateX: 0, opacity: 1}}
             transition={{duration: 0.3}}
+            className="shrink-0"
           >
             <Image
               src={
@@ -90,7 +91,7 @@ function PreviewProduct() {
               alt={productID?.title || ""}
               width={400}
               height={400}
-              className="rounded-3xl w-[1000px] h-[500px]  object-cover"
+              className="rounded-3xl w-[500px] h-[500px] object-cover"
             />
           </motion.div>
           <div className="flex flex-wrap gap-5 capitalize">
