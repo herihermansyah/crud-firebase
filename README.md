@@ -1,36 +1,120 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# CRUD Firebase
 
-## Getting Started
+A modern and efficient CRUD application built using Next.js, TypeScript, and Firebase.  
+Designed with clean UI, responsive layout, smooth animations, and real-time interactions to deliver a polished user experience.  
+This project follows best practices commonly used in production-grade frontend applications.
 
-First, run the development server:
+---
+
+## 🚀 Tech Stack
+
+- **Next.js**
+- **React + TypeScript**
+- **Tailwind CSS**
+- **Firebase**
+- **Framer Motion**
+- **Material UI (MUI)**
+- **React Icons**
+- **React Toastify**
+
+---
+
+## 🔧 Features
+
+- **Create / Read / Update / Delete (CRUD)**
+- **Responsive design**
+- **Smooth UI animations**
+- **Real-time notifications**
+- **Reusable component architecture**
+- **Clean and maintainable code structure**
+
+---
+
+## 📦 Installation
+
+### 1. Clone Repository
+```bash
+git clone https://github.com/herihermansyah/crud-firebase.git
+cd crud-firebase
+npm install
+```
+
+---
+
+## 🔑 Environment Setup
+
+Create a `.env.local` file at the root of the project and insert the following:
+
+```
+NEXT_PUBLIC_FIREBASE_API_KEY=
+NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=
+NEXT_PUBLIC_FIREBASE_PROJECT_ID=
+NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=
+NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=
+NEXT_PUBLIC_FIREBASE_APP_ID=
+NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID=
+```
+
+> Note: Never commit this file to Git.  
+> Use Vercel Environment Variables for deployment.
+
+---
+
+## ▶️ Running the Project
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The project should now be available at:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🌐 Live Demo
 
-To learn more about Next.js, take a look at the following resources:
+Access the deployed version here:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+🔗 **https://crud-firebase-six.vercel.app/**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 📁 Folder Structure (Simplified Overview)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```
+/
+├─ src/
+│  ├─ app/
+│  ├─ components/
+│  ├─ lib/
+│  ├─ styles/
+│  └─ utils/
+├─ public/
+└─ .env.local (ignored)
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🖼️ preview
+
+> *(Tambahkan screenshot kamu di sini. Example placeholder:)*  
+> `![Dashboard](./screenshots/dashboard.png)`  
+> `![Form](./screenshots/form.png)`
+
+---
+
+## 👨‍💻 Author
+
+**Heri Hermansyah**  
+🔗 LinkedIn: https://www.linkedin.com/in/heri-hermansyah/  
+🔗 GitHub: https://github.com/herihermansyah  
+
+---
+
+## 📜 License
+
+This project is open-source and available under the **MIT License**.
+
