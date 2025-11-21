@@ -98,7 +98,7 @@ Access the deployed version here:
 
 ---
 
-## 🖼️ Screenshots
+## 🖼️ preview
 
 > *(Tambahkan screenshot kamu di sini. Example placeholder:)*  
 > `![Dashboard](./screenshots/dashboard.png)`  
