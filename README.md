@@ -100,9 +100,10 @@ Access the deployed version here:
 
 ## 🖼️ preview
 
-> *(Tambahkan screenshot kamu di sini. Example placeholder:)*  
-> `![Dashboard](./screenshots/dashboard.png)`  
-> `![Form](./screenshots/form.png)`
+![Dashboard](./screenshots/dashboard.png)  
+![Form](./screenshots/listusers.png)
+![Form](./screenshots/previewuser.png)
+![Form](./screenshots/formusers.png)
 
 ---
 
