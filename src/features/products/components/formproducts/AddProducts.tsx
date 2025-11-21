@@ -124,7 +124,6 @@ function AddProducts() {
                         type="number"
                         label="stock"
                         size="small"
-                        required
                         disabled={!existing}
                         value={existing?.stock ?? ""}
                         onChange={(e) => {
