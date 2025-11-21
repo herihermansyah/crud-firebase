@@ -95,8 +95,17 @@ function EditProducts() {
               type={item.type}
               value={productID[item.key] || ""}
               onChange={handleChange}
+              required
             />
           ))}
+
+          <TextField
+            name="discount"
+            label="discount"
+            type="number"
+            value={productID.discount}
+            onChange={handleChange}
+          />
 
           <TextField
             name="thumbnail"
@@ -138,6 +147,7 @@ function EditProducts() {
                         type="number"
                         label="stock"
                         size="small"
+                        required
                         disabled={!existing}
                         value={existing?.stock ?? ""}
                         onChange={(e) => {
@@ -164,6 +174,7 @@ function EditProducts() {
               <Select<string>
                 name={item.key}
                 label={item.label}
+                required
                 value={productID[item.key] as string}
                 onChange={handleSelect}
               >

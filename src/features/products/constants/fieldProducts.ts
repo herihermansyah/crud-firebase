@@ -4,7 +4,6 @@ export const field: {key: keyof Products; label: string; type: string}[] = [
   {key: "title", label: "title", type: "text"},
   {key: "description", label: "description", type: "text"},
   {key: "price", label: "price", type: "number"},
-  {key: "discount", label: "discount", type: "number"},
   {key: "rating", label: "rating", type: "number"},
 ];
 

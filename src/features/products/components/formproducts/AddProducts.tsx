@@ -72,8 +72,17 @@ function AddProducts() {
               type={item.type}
               value={addProduct[item.key] || ""}
               onChange={handleChange}
+              required
             />
           ))}
+
+          <TextField
+            name="discount"
+            label="discount"
+            type="number"
+            value={addProduct.discount}
+            onChange={handleChange}
+          />
 
           <TextField
             name="thumbnail"
@@ -115,6 +124,7 @@ function AddProducts() {
                         type="number"
                         label="stock"
                         size="small"
+                        required
                         disabled={!existing}
                         value={existing?.stock ?? ""}
                         onChange={(e) => {
@@ -143,6 +153,7 @@ function AddProducts() {
                 label={item.label}
                 value={addProduct[item.key] as string}
                 onChange={handleSelect}
+                required
               >
                 {item.value?.map((item, index) => (
                   <MenuItem key={index} value={item}>
