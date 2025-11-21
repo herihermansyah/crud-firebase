@@ -1,10 +1,10 @@
-import UserProduct from "@/components/ui/Change";
+import ListUsers from "@/features/users/components/ui/ListUsers";
 import React from "react";
 
 function page() {
   return (
     <div>
-      <UserProduct />
+      <ListUsers />
     </div>
   );
 }

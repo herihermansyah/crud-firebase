@@ -1,10 +1,10 @@
-import UserProduct from "@/components/ui/Change";
+import Preview from "@/features/users/components/ui/Preview";
 import React from "react";
 
 function page() {
   return (
     <div>
-      <UserProduct />
+      <Preview />
     </div>
   );
 }

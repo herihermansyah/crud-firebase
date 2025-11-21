@@ -1,10 +1,10 @@
-import UserProduct from "@/components/ui/Change";
+import AddProducts from "@/features/products/components/formproducts/AddProducts";
 import React from "react";
 
 function page() {
   return (
     <div>
-      <UserProduct />
+      <AddProducts />
     </div>
   );
 }
